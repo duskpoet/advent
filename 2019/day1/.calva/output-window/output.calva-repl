@@ -1,0 +1,221 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+clj::undefined=> 
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::day1.core=> 
+
+; Jack-in done.
+clj::day1.core=> 
+; Evaluating file: core.clj
+0
+clj::day1.core=> 
+; Evaluating file: core.clj
+0
+clj::day1.core=> 
+; Evaluating file: core.clj
+0
+clj::day1.core=> 
+clj::day1.core=> 
+
+
+; Evaluating file: core.clj
+0
+clj::day1.core=> 
+; Evaluating file: core.clj
+0 132897
+0 131436
+0 107839
+0 98498
+0 141198
+0 147530
+0 65491
+0 142162
+0 89575
+0 95090
+0 147097
+0 129782
+0 144858
+0 68745
+0 102201
+0 103225
+0 113363
+0 111744
+0 91402
+0 72832
+0 122801
+0 121257
+0 52343
+0 73228
+0 92718
+0 147235
+0 88278
+0 86305
+0 75761
+0 63778
+0 60566
+0 125207
+0 65341
+0 72035
+0 117227
+0 101003
+0 91830
+0 121549
+0 116387
+0 62337
+0 124495
+0 76900
+0 149440
+0 94380
+0 72932
+0 74131
+0 147816
+0 137870
+0 135540
+0 99187
+0 78513
+0 81784
+0 77323
+0 122089
+0 126365
+0 148263
+0 71299
+0 56483
+0 100098
+0 118856
+0 101395
+0 106244
+0 129590
+0 104179
+0 76867
+0 57756
+0 83790
+0 80722
+0 133943
+0 78243
+0 92963
+0 69222
+0 117193
+0 63871
+0 111459
+0 107930
+0 116514
+0 124433
+0 84165
+0 144701
+0 144033
+0 99114
+0 52861
+0 86496
+0 134584
+0 126356
+0 149743
+0 70192
+0 142814
+0 73271
+0 111543
+0 60035
+0 146067
+0 100679
+0 116636
+0 104316
+0 84510
+0 59851
+0 101893
+0 55611
+0
+clj::day1.core=> 
+; Evaluating file: core.clj
+5093505.0
+clj::day1.core=> 
+; Evaluating file: core.clj
+5093505
+clj::day1.core=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+clj::day1.core-test=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running test: a-test…
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+clj::day1.core-test=> 
+clj::day1.core-test=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+clj::day1.core-test=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running test: a-test…
+; FAIL in day1.core-test/a-test (core_test.clj:8):
+; FIXME, I fail.
+; expected:
+50344.0
+; actual:
+(50346)
+; 2 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj::day1.core-test=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+clj::day1.core-test=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running test: a-test…
+; FAIL in day1.core-test/a-test (core_test.clj:8):
+; FIXME, I fail.
+; expected:
+50344
+; actual:
+(50346)
+; 2 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj::day1.core-test=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+clj::day1.core-test=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running test: a-test…
+; FAIL in day1.core-test/a-test (core_test.clj:7):
+; FIXME, I fail.
+; expected:
+50344
+; actual:
+(50346)
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj::day1.core-test=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+clj::day1.core-test=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running test: a-test…
+; FAIL in day1.core-test/a-test (core_test.clj:7):
+; FIXME, I fail.
+; expected:
+50346
+; actual:
+(50344)
+; 1 tests finished, problems found. 😭 errors: 0, failures: 1, ns: 1, vars: 1
+clj::day1.core-test=> 
+; Evaluating file: core.clj
+5093620
+clj::day1.core=> 
+; Evaluating file: core_test.clj
+#'day1.core-test/a-test
+; Running test: a-test…
+; 1 tests finished, all passing 👍, ns: 1, vars: 1
+clj::day1.core-test=> 
+; Evaluating file: core.clj
+5093620
+clj::day1.core=> 

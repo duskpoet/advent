@@ -1,0 +1,104 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+clj::undefined=> 
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::day4.core=> 
+
+; Jack-in done.
+clj::day4.core=> 
+; Evaluating file: core.clj
+#'day4.core/matches-criteria
+clj::day4.core=> 
+; Running all project tests…
+; ERROR in day4.core-test/matches-criteria-test (line 11):
+; error: java.lang.ClassCastException: java.base/java.util.regex.Pattern cannot be cast to java.base/java.lang.Number (Numbers.java)
+; expected:
+(= true (matches-criteria 112233))
+; ERROR in day4.core-test/matches-criteria-test (line 12):
+; error: java.lang.ClassCastException: java.base/java.util.regex.Pattern cannot be cast to java.base/java.lang.Number (Numbers.java)
+; expected:
+(= false (matches-criteria 123444))
+; ERROR in day4.core-test/matches-criteria-test (line 13):
+; error: java.lang.ClassCastException: java.base/java.util.regex.Pattern cannot be cast to java.base/java.lang.Number (Numbers.java)
+; expected:
+(= true (matches-criteria 123445))
+; ERROR in day4.core-test/matches-criteria-test (line 14):
+; error: java.lang.ClassCastException: java.base/java.util.regex.Pattern cannot be cast to java.base/java.lang.Number (Numbers.java)
+; expected:
+(= false (matches-criteria 223450))
+; ERROR in day4.core-test/matches-criteria-test (line 15):
+; error: java.lang.ClassCastException: java.base/java.util.regex.Pattern cannot be cast to java.base/java.lang.Number (Numbers.java)
+; expected:
+(= false (matches-criteria 123789))
+; 8 tests finished, problems found. 😭 errors: 5, failures: 0, ns: 1, vars: 2
+clj::day4.core=> (clojure.stacktrace/e)
+
+#function[clojure.stacktrace/e]
+clj::day4.core=> (clojure.stacktrace/e)
+; Execution error (NullPointerException) at clojure.stacktrace/root-cause (stacktrace.clj:22).
+; null
+clojure.lang.Reflector/invokeNoArgInstanceMember (Reflector.java:426)
+clojure.stacktrace/root-cause (stacktrace.clj:22)
+clojure.stacktrace/e (stacktrace.clj:80)
+day4.core/eval16283 (form-init816065549535158921.clj:50)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:844)
+clj::day4.core=> 
+; Execution error (ClassCastException) at day4.core/matches-criteria (core.clj:22).
+; java.base/java.util.regex.Pattern cannot be cast to java.base/java.lang.Number
+clojure.lang.Numbers/gt (Numbers.java:259)
+clojure.core/> (core.clj:1079)
+clojure.core/> (core.clj:1070)
+day4.core/matches-criteria (core.clj:22)
+day4.core/matches-criteria (core.clj:19)
+day4.core-test/eval16314 (form-init816065549535158921.clj:11)
+clojure.lang.Compiler/eval (Compiler.java:7177)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:437)
+clojure.main/repl (main.clj:458)
+clojure.main/repl (main.clj:368)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:844)
+clj::day4.core-test=> 
+; Evaluating file: core.clj
+; Evaluating file: core_test.clj
+#'day4.core/matches-criteria
+clj::day4.core=> 
+#'day4.core-test/matches-criteria-test
+clj::day4.core-test=> 

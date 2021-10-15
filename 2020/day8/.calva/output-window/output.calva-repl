@@ -1,0 +1,78 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj::day8.core=> 
+
+; Jack-in done.
+clj::day8.core=> 
+; Evaluating file: core.clj
+nil
+clj::day8.core=> 
+; Evaluating file: core.clj
+; Execution error (ClassCastException) at day8.core/eval18687 (form-init17450643255302255461.clj:1).
+; class java.net.URL cannot be cast to class java.lang.CharSequence (java.net.URL and java.lang.CharSequence are in module java.base of loader 'bootstrap')
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj::day8.core=> 
+; Evaluating file: core.clj
+((:acc 40) (:jmp 187) (:acc 47) (:acc 20) (:acc -12) (:jmp 225) (:nop 488) (:acc 13) (:nop 462) (:jmp 374) (:acc 15) (:acc 42) (:jmp 116) (:acc 23) (:nop 216) (:acc -15) (:jmp 398) (:jmp 103) (:acc 17) (:acc 7) (:jmp 571) (:jmp 1) (:jmp 217) (:acc 7) (:jmp 1) (:acc 35) (:jmp 257) (:acc 24) (:nop 20) (:jmp 309) (:acc 2) (:acc -15) (:acc -13) (:nop 457) (:jmp 19) (:acc 46) (:acc 45) (:acc 35) (:jmp 295) (:acc -15) (:acc 49) (:acc 22) (:jmp 400) (:jmp 202) (:nop -38) (:jmp 381) (:acc 0) (:jmp 137) (:acc 27) (:jmp 196) (:acc 46) (:acc -15) (:jmp 348) (:jmp 457) (:acc 50) (:acc 8) (:jmp 452) (:acc -14) (:nop 321) (:acc 39) (:jmp 273) (:acc -9) (:jmp 413) (:acc 32) (:jmp 64) (:acc 18) (:jmp 152) (:acc -4) (:acc 9) (:acc 10) (:acc -1) (:jmp 433) (:acc 40) (:jmp -55) (:acc 28) (:nop 279) (:jmp 145) (:acc 24) (:nop 416) (:acc 45) (:jmp 45) (:acc 0) (:acc 49) (:acc -14) (:jmp 44) (:acc 17) (:acc 18) (:nop 224) (:acc 3) (:jmp 261) (:jmp -84) (:acc -11) (:acc 29) (:acc 42) (:jmp -13) (:acc -5) (:jmp 210) (:acc 26) (:acc -19) (:acc -19) (:jmp -82) (:acc 29) (:acc 31) (:acc -4) (:jmp 53) (:acc 46) (:jmp 139) (:acc 45) (:acc 30) (:jmp 1) (:jmp 418) (:jmp 248) (:acc 24) (:acc 15) (:acc 34) (:acc 17) (:jmp 52) (:acc 23) (:acc 18) (:jmp 65) (:jmp 1) (:acc 37) (:acc 25) (:jmp 385) (:jmp 281) (:nop 345) (:jmp -25) (:jmp 149) (:acc 21) (:acc 28) (:acc 15) (:jmp -74) (:jmp 179) (:jmp 287) (:acc 14) (:acc -3) (:acc -7) (:jmp -9) (:acc 17) (:acc -8) (:jmp 344) (:jmp 1) (:acc 36) (:acc -16) (:acc -17) (:jmp -82) (:jmp 1) (:acc 41) (:acc -8) (:acc 27) (:jmp 381) (:acc -10) (:nop -71) (:acc 23) (:nop 377) (:jmp -125) (:jmp 319) (:nop 119) (:nop 309) (:nop 195) (:jmp 307) (:acc 8) (:acc 31) (:jmp 1) (:acc -15) (:jmp 398) (:jmp 265) (:jmp -55) (:nop 143) (:jmp -36) (:acc 38) (:nop -38) (:jmp 298) (:acc -17) (:acc 39) (:acc -13) (:jmp -38) (:acc 23) (:jmp 133) (:acc 23) (:jmp -90) (:acc 14) (:jmp 1) (:jmp 100) (:nop 230) (:jmp 346) (:acc 36) (:jmp 14) (:jmp 126) (:jmp -32) (:jmp -142) (:acc 25) (:jmp 146) (:nop 118) (:acc -3) (:jmp 1) (:acc -8) (:jmp 101) (:nop 277) (:acc 27) (:jmp 328) (:acc -11) (:acc 17) (:nop 135) (:jmp 196) (:acc -9) (:jmp 39) (:nop 110) (:acc 14) (:nop 3) (:jmp 17) (:jmp 220) (:acc 17) (:jmp 5) (:acc 18) (:acc 39) (:acc -12) (:jmp -204) (:jmp 317) (:acc 37) (:jmp 222) (:nop 146) (:nop 248) (:jmp 182) (:acc 48) (:acc -13) (:jmp 174) (:jmp 342) (:nop -189) (:jmp 324) (:acc 35) (:acc 25) (:acc 21) (:jmp -152) (:nop -92) (:acc -3) (:acc -15) (:acc 30) (:jmp -157) (:acc -17) (:acc 37) (:acc 7) (:acc 5) (:jmp -225) (:jmp -177) (:acc 21) (:jmp 244) (:acc 42) (:acc -4) (:jmp -116) (:nop 225) (:nop -63) (:acc 20) (:jmp 195) (:acc 20) (:acc 21) (:jmp 228) (:acc 16) (:acc -8) (:acc 12) (:nop 188) (:jmp 9) (:acc 6) (:acc -13) (:acc 36) (:jmp -86) (:jmp -253) (:nop -60) (:acc 25) (:jmp -174) (:acc 10) (:nop -114) (:jmp -65) (:jmp 1) (:acc 24) (:jmp -150) (:acc 27) (:jmp -47) (:acc 50) (:nop -58) (:acc -17) (:acc -16) (:jmp -170) (:jmp -104) (:jmp -177) (:acc 46) (:jmp 106) (:jmp -206) (:acc 2) (:acc 10) (:acc 17) (:nop -107) (:jmp -126) (:jmp 1) (:acc 50) (:acc -14) (:acc 29) (:jmp -234) (:nop 144) (:acc 43) (:acc 34) (:jmp 221) (:jmp 1) (:nop 97) (:acc 39) (:jmp -60) (:acc 44) (:jmp -240) (:acc 11) (:acc 36) (:jmp -71) (:acc -5) (:jmp 149) (:jmp 54) (:acc 38) (:jmp 44) (:jmp -165) (:acc 14) (:jmp -134) (:acc 3) (:acc 22) (:nop 46) (:acc -12) (:jmp -57) (:acc 49) (:acc 24) (:acc 16) (:jmp 27) (:acc 6) (:nop -5) (:acc 45) (:acc 34) (:jmp -175) (:jmp -76) (:acc 3) (:acc 15) (:acc -19) (:jmp 1) (:nop -226) (:acc -2) (:jmp -55) (:jmp -284) (:acc 2) (:jmp 1) (:jmp 15) (:acc 11) (:acc 12) (:acc -1) (:acc 2) (:jmp 179) (:acc 19) (:acc 17) (:jmp -329) (:jmp -272) (:jmp -104) (:acc 41) (:nop 189) (:acc 47) (:jmp -88) (:acc 4) (:acc 16) (:acc 43) (:acc 25) (:jmp 71) (:acc -2) (:acc 45) (:jmp -173) (:jmp 1) (:acc 44) (:acc 33) (:jmp -53) (:acc 45) (:acc 9) (:acc 0) (:acc 12) (:jmp 178) (:jmp -100) (:acc 14) (:jmp -67) (:acc 42) (:jmp 201) (:acc 30) (:jmp -319) (:nop -4) (:nop -211) (:acc -3) (:nop -165) (:jmp -175) (:acc 12) (:acc -10) (:acc -14) (:jmp -53) (:acc -13) (:nop -143) (:jmp 159) (:acc -5) (:nop 18) (:nop -5) (:acc 13) (:jmp -248) (:jmp 114) (:acc 10) (:nop -396) (:nop -246) (:jmp 16) (:acc -3) (:acc 33) (:nop 174) (:acc 48) (:jmp -289) (:nop 98) (:acc 18) (:acc -17) (:jmp -137) (:jmp 1) (:acc 34) (:acc 36) (:jmp -216) (:acc 11) (:jmp -102) (:acc 10) (:jmp 10) (:acc 26) (:acc 35) (:acc -9) (:jmp -83) (:acc 15) (:nop -397) (:jmp -140) (:nop 111) (:jmp 139) (:jmp -165) (:acc 16) (:jmp -343) (:acc 8) (:acc 35) (:acc -17) (:acc -8) (:jmp 29) (:acc 50) (:nop -256) (:jmp -268) (:jmp 132) (:acc 13) (:acc 38) (:acc -6) (:acc -7) (:jmp -327) (:acc -8) (:jmp -256) (:nop -139) (:acc 30) (:jmp -60) (:acc -1) (:acc 11) (:jmp -216) (:acc -12) (:nop -390) (:acc 17) (:acc 39) (:jmp 101) (:acc 28) (:jmp 1) (:acc -7) (:acc -18) (:jmp -277) (:jmp -90) (:acc -10) (:jmp -326) (:jmp -368) (:nop -396) (:jmp -320) (:acc 42) (:acc 3) (:jmp -430) (:acc 47) (:acc 11) (:acc 19) (:acc 41) (:jmp -354) (:acc 30) (:acc 7) (:nop -106) (:jmp -420) (:acc 22) (:acc -15) (:jmp -296) (:acc -7) (:acc 48) (:jmp -19) (:jmp -148) (:acc 10) (:jmp 1) (:jmp 17) (:nop -273) (:acc 42) (:acc -4) (:nop -130) (:jmp 47) (:nop -436) (:acc -7) (:jmp 1) (:acc 42) (:jmp -330) (:acc 35) (:jmp 56) (:acc -19) (:jmp -440) (:jmp -335) (:jmp -279) (:nop -390) (:jmp 74) (:acc -5) (:jmp -456) (:acc 38) (:acc 3) (:jmp 47) (:acc 50) (:acc 26) (:acc 46) (:acc -7) (:jmp -491) (:acc -4) (:acc -7) (:acc 14) (:nop -105) (:jmp -487) (:jmp -326) (:nop -360) (:jmp -378) (:jmp -285) (:acc 46) (:jmp -190) (:acc 10) (:jmp -346) (:acc 49) (:jmp -492) (:acc -9) (:acc -17) (:jmp -147) (:acc 20) (:jmp -217) (:nop -183) (:acc 35) (:jmp -268) (:nop -51) (:jmp 1) (:jmp -440) (:acc 22) (:acc 24) (:jmp 1) (:acc 26) (:jmp -451) (:acc -14) (:acc 48) (:acc 3) (:jmp -363) (:acc 21) (:acc 24) (:acc 36) (:jmp -418) (:jmp -108) (:jmp -323) (:jmp 20) (:acc 1) (:acc 21) (:nop -212) (:acc -3) (:jmp -338) (:acc 36) (:acc -19) (:jmp -192) (:acc 49) (:jmp -380) (:acc -12) (:acc 14) (:acc 38) (:acc 4) (:jmp -228) (:acc 2) (:jmp -197) (:jmp -41) (:jmp -265) (:jmp -113) (:jmp -459) (:jmp 1) (:acc 38) (:jmp -79) (:acc 16) (:nop -456) (:jmp -129) (:acc 12) (:acc 29) (:nop -575) (:acc -7) (:jmp 1))
+clj::day8.core=> 
+; Evaluating file: core.clj
+1137
+clj::day8.core=> 
+; Evaluating file: core.clj
+; Syntax error compiling at (src/day8/core.clj:29:19).
+; Unable to resolve symbol: recur in this context
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj::day8.core=> 
+; Evaluating file: core.clj
+(:loop #{0 586 291 299 218 298 188 130 128 468 259 210 153 213 343 7 59 154 571 58 60 175 510 352 416 1 24 385 490 354 360 448 387 39 508 415 300 204 470 197 260 144 176 471 290 361 327 15 48 251 585 583 437 516 540 31 32 139 581 174 578 363 208 514 485 193 442 314 40 129 467 515 523 417 33 13 380 257 90 292 525 143 41 195 428 522 384 196 426 541 351 131 151 575 44 258 250 301 6 563 64 155 587 227 25 261 201 166 34 252 325 436 535 536 152 435 342 484 142 359 570 23 526 180 350 383 57 202 431 9 427 145 289 414 179 344 245 266 324 524 283 138 14 449 333 569 326 45 53 315 26 203 577 140 16 288 173 574 30 400 207 434 194 511 486 272 386 270 576 271 253 209 438 42 379 63 212 362 8 246 190 49})
+clj::day8.core=> 
+; Evaluating file: core.clj
+(:loop 1141)
+clj::day8.core=> 
+; Evaluating file: core.clj
+(:loop 1137)
+clj::day8.core=> 
+; Evaluating file: core.clj
+; Syntax error (IllegalArgumentException) compiling at (src/day8/core.clj:48:1).
+; No matching clause: :acc
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj::day8.core=> 
+; Evaluating file: core.clj
+; Syntax error (ClassCastException) compiling at (src/day8/core.clj:48:1).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.Associative (clojure.lang.LazySeq and clojure.lang.Associative are in unnamed module of loader 'app')
+; Evaluation of file core.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj::day8.core=> 
+
+(clojure.stacktrace/e)
+java.lang.ClassCastException: class clojure.lang.LazySeq cannot be cast to class clojure.lang.Associative (clojure.lang.LazySeq and clojure.lang.Associative are in unnamed module of loader 'app')
+ at clojure.lang.RT.assoc (RT.java:827)
+    clojure.core$assoc__5416.invokeStatic (core.clj:191)
+    clojure.core/assoc (core.clj:190)
+    day8.core$task_2.invokeStatic (core.clj:43)
+    day8.core$task_2.invoke (core.clj:34)
+    day8.core$eval21949.invokeStatic (core.clj:48)
+    day8.core$eval21949.invoke (core.clj:48)
+    clojure.lang.Compiler.eval (Compiler.java:7177)
+nil
+clj::day8.core=> 
+; Evaluating file: core.clj
+1125
+clj::day8.core=> 

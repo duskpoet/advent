@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="997fac8e-fe2d-45e0-8e73-e16ac1550acd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1m9NH3aT1YYCjedmP48TWWA7rvo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToKeyword.includeLibraries" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="ReplState" timestamp="1609627340296">{:repl-history {:ide [], :local [{:command &quot;input&quot;, :offset 5, :ns &quot;day19.core&quot;} {:command &quot;(clojure.stacktrace/e)&quot;, :offset 22, :ns &quot;day19.core&quot;} {:command &quot;(rules 0)&quot;, :offset 9, :ns &quot;day19.core&quot;} {:command &quot;(walk-rules\n  {1 \&quot;b\&quot;} \&quot;a\&quot;)&quot;, :offset 26, :ns &quot;day19.core&quot;} {:command &quot;(walk-rules rules (rules 0))&quot;, :offset 28, :ns &quot;day19.core&quot;} {:command &quot;(walk-rules\n  {1 \&quot;a\&quot; 2 '((1 3) (3 1)) 3 \&quot;b\&quot;}\n  '((1 2)))&quot;, :offset 56, :ns &quot;day19.core&quot;} {:command &quot;rules&quot;, :offset 5, :ns &quot;day19.core&quot;} {:command &quot;(match-word\n  rules-2-new\n  (sp \&quot;bbabbbbaabaabba\&quot;)\n  (rules 0))&quot;, :offset 63, :ns &quot;day19.core&quot;} {:command &quot;(def new-rules (assoc rules\n                 8 '((42) (42 8))\n                 11 '((42 31) (42 11 31))))&quot;, :offset 105, :ns &quot;day19.core&quot;} {:command &quot;(match-word\n  new-rules\n  (sp \&quot;bbabbbbaabaabba\&quot;)\n  (rules 0))&quot;, :offset 61, :ns &quot;day19.core&quot;} {:command &quot;(match-word\n  new-rules\n  (sp \&quot;kek\&quot;)\n  (rules 0))&quot;, :offset 49, :ns &quot;day19.core&quot;} {:command &quot;(match-word\n  new-rules\n  (sp \&quot;baabababbaababbbaabbbbab\&quot;)\n  (rules 0))&quot;, :offset 70, :ns &quot;day19.core&quot;} {:command &quot;(if (seq []) 1 2)&quot;, :offset 17, :ns &quot;day19.core&quot;} {:command &quot;words&quot;, :offset 5, :ns &quot;day19.core&quot;} {:command &quot;(wtf)&quot;, :offset 5, :ns &quot;day19.core&quot;} {:command &quot;(match-word\n  rules-2-new\n  (sp \&quot;aaaaabbaabaaaaababaa\&quot;)\n  (rules 0))&quot;, :offset 68, :ns &quot;day19.core-test&quot;} {:command &quot;(day19.core/match-word\n  day19.core-test/rules-2-new\n  (sp \&quot;aaaaabbaabaaaaababaa\&quot;)\n  (rules-2-new 0))&quot;, :offset 101, :ns &quot;day19.core&quot;} {:command &quot;(reduce-rules rules)&quot;, :offset 20, :ns &quot;day19.core&quot;} {:command &quot;(into (seq) [1 2 3])&quot;, :offset 20, :ns &quot;day19.core&quot;} {:command &quot;(into (lazy-seq) [1 2 3])&quot;, :offset 25, :ns &quot;day19.core&quot;} {:command &quot;(into (list) [1 2 3])&quot;, :offset 21, :ns &quot;day19.core&quot;} {:command &quot;(into [] [1 2 3])&quot;, :offset 17, :ns &quot;day19.core&quot;} {:command &quot;(match-word rules [(sp (nth words 1\n                            ))] (rules 0))&quot;, :offset 78, :ns &quot;day19.core&quot;} {:command &quot;(match-word rules [(sp (nth words 3\n                            ))] (rules 0))&quot;, :offset 78, :ns &quot;day19.core&quot;} {:command &quot;(match-word rules [(sp (nth words 5))] (rules 0))&quot;, :offset 49, :ns &quot;day19.core&quot;} {:command &quot;(match-word rules [(sp (nth words 2))] (rules 0))&quot;, :offset 49, :ns &quot;day19.core&quot;} {:command &quot;(match-word rules [(sp (nth words 0))] (rules 0))&quot;, :offset 49, :ns &quot;day19.core&quot;} {:command &quot;(= '() (match-word rules [(sp (nth words 0))] (rules 0)))&quot;, :offset 57, :ns &quot;day19.core&quot;} {:command &quot;(= '(()) (match-word rules [(sp (nth words 0))] (rules 0)))&quot;, :offset 59, :ns &quot;day19.core&quot;} {:command &quot;(task-1)&quot;, :offset 8, :ns &quot;day19.core&quot;} {:command &quot;(task-2)&quot;, :offset 8, :ns &quot;day19.core&quot;}], :remote []}}</component>
+  <component name="RunManager" selected="Clojure REPL.repl">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="repl" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="day19" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="LeiningenRunConfiguration" factoryName="Leiningen">
+      <module name="day19" />
+      <arguments argument="test" />
+      <setting name="profiles" value="" />
+      <setting name="trampoline" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Clojure REPL.repl" />
+      <item itemvalue="Leiningen.test" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="997fac8e-fe2d-45e0-8e73-e16ac1550acd" name="Default Changelist" comment="" />
+      <created>1608901755635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608901755635</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="318" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608916335714">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="318" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1608916335714" />
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/268.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1608901978600" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1608919403079">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1608919403079" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1608919403078">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1608919403078" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1608919403077">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1608919403077" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1608919403078">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1608919403078" />
+    <state x="565" y="258" width="789" height="676" key="search.everywhere.popup" timestamp="1608903668347">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="565" y="258" width="789" height="676" key="search.everywhere.popup/268.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1608903668347" />
+  </component>
+</project>

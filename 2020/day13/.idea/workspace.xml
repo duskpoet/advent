@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a05fb32-6429-40f8-ad89-efd9b9dc5ac6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1lazjs2FC1Zf5o7tBdll3UyCIGG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+  </component>
+  <component name="ReplState" timestamp="1607937742419">{:repl-history {:ide [], :local [{:command &quot;input&quot;, :offset 5, :ns &quot;day13.core&quot;} {:command &quot;(first input)&quot;, :offset 13, :ns &quot;day13.core&quot;} {:command &quot;(task-1)&quot;, :offset 8, :ns &quot;day13.core&quot;} {:command &quot;(def largest (apply max active-buses))&quot;, :offset 38, :ns &quot;day13.core&quot;} {:command &quot;buses-map&quot;, :offset 9, :ns &quot;day13.core&quot;} {:command &quot;(validate-t 100)&quot;, :offset 16, :ns &quot;day13.core&quot;} {:command &quot;largest&quot;, :offset 7, :ns &quot;day13.core&quot;} {:command &quot;buses&quot;, :offset 5, :ns &quot;day13.core&quot;} {:command &quot;(buses-map)&quot;, :offset 11, :ns &quot;day13.core&quot;} {:command &quot;(extract-buses sample)&quot;, :offset 22, :ns &quot;day13.core-test&quot;} {:command &quot;(buses-map (extract-buses sample))&quot;, :offset 34, :ns &quot;day13.core-test&quot;} {:command &quot;(validate-t (extract-buses sample))&quot;, :offset 35, :ns &quot;day13.core-test&quot;} {:command &quot;(validate-t 1068788 (extract-buses sample))&quot;, :offset 43, :ns &quot;day13.core-test&quot;} {:command &quot;(rem 1068788 59)&quot;, :offset 16, :ns &quot;day13.core&quot;} {:command &quot;(rem (+ 1068788 4) 59)&quot;, :offset 22, :ns &quot;day13.core&quot;} {:command &quot;(rem (+ 1068781 4) 59)&quot;, :offset 22, :ns &quot;day13.core&quot;} {:command &quot;(* 17 39)&quot;, :offset 9, :ns &quot;day13.core&quot;} {:command &quot;(* 17 37)&quot;, :offset 9, :ns &quot;day13.core&quot;} {:command &quot;(+ 613 48)&quot;, :offset 10, :ns &quot;day13.core&quot;} {:command &quot;(/ 661 17)&quot;, :offset 10, :ns &quot;day13.core&quot;} {:command &quot;(rem 661 17)&quot;, :offset 12, :ns &quot;day13.core&quot;} {:command &quot;(buses-map buses)&quot;, :offset 17, :ns &quot;day13.core&quot;} {:command &quot;b-map&quot;, :offset 5, :ns &quot;day13.core&quot;} {:command &quot;(clojure.stacktrace/e)&quot;, :offset 22, :ns &quot;day13.core&quot;} {:command &quot;active-buses&quot;, :offset 12, :ns &quot;day13.core&quot;} {:command &quot;(mul-coefs 2 1)&quot;, :offset 15, :ns &quot;day13.core&quot;} {:command &quot;(mul-coefs [2 1])&quot;, :offset 17, :ns &quot;day13.core&quot;} {:command &quot;(+ 34 (* 41 17))&quot;, :offset 16, :ns &quot;day13.core&quot;} {:command &quot;(mul-coefs [2 0])&quot;, :offset 17, :ns &quot;day13.core&quot;} {:command &quot;(calc-n-coef [])&quot;, :offset 16, :ns &quot;day13.core&quot;} {:command &quot;(task-2)&quot;, :offset 8, :ns &quot;day13.core&quot;}], :remote []}}</component>
+  <component name="RunManager">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="repl" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="day13" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a05fb32-6429-40f8-ad89-efd9b9dc5ac6" name="Default Changelist" comment="" />
+      <created>1607850127615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607850127615</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="60" width="1071" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607852558334">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="60" width="1071" height="840" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1607852558334" />
+    <state x="221" y="100" key="SettingsEditor" timestamp="1607889825884">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1607889825884" />
+    <state x="325" y="213" width="789" height="676" key="search.everywhere.popup" timestamp="1607854081802">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="325" y="213" width="789" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1607854081802" />
+  </component>
+</project>
