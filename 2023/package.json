@@ -1,0 +1,11 @@
+{
+  "name": "advent2023",
+  "module": "-",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
