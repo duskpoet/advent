@@ -1,7 +1,6 @@
-import { read } from "../utils/read";
 import { join } from "node:path";
-
-const input = read(join(import.meta.dir, "input.txt"));
+import { Challenge } from "../utils/challenge";
+import { byLine } from "../utils/read";
 
 function getTheNumber(line: string) {
   const l = line.length;
@@ -84,22 +83,28 @@ function getTheNumber2(line: string) {
   return result;
 }
 
-async function main1() {
+function solution1(input: string) {
   let result = 0;
-  for await (const line of input) {
+  for (const line of byLine(input)) {
     const n = getTheNumber(line);
     result += n;
   }
-  console.log(result);
+  return result;
 }
 
-async function main2() {
+function solution2(input: string) {
   let result = 0;
-  for await (const line of input) {
+  for (const line of byLine(input)) {
     const n = getTheNumber2(line);
     result += n;
   }
-  console.log(result);
+  return result;
 }
 
-main2();
+const challenge = new Challenge(
+  join(import.meta.dir, "input.txt"),
+  solution1,
+  solution2
+);
+
+export default challenge;

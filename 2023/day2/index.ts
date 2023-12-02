@@ -1,7 +1,6 @@
 import { join } from "node:path";
-import { read } from "../utils/read";
-
-const input = read(join(import.meta.dir, "input.txt"));
+import { byLine } from "../utils/read";
+import { Challenge } from "../utils/challenge";
 
 type Color = "red" | "green" | "blue";
 class Handful {
@@ -20,7 +19,7 @@ class Game {
 }
 
 const parse = (input: string): Game => {
-  console.log("Parsing", input);
+  // console.log("Parsing", input);
   const [game, haul] = input.split(":");
   const gameId = game.substring(5).trim();
   const hauls = haul
@@ -53,10 +52,10 @@ const isGamePossible = (limiting: Handful) => (game: Game) => {
   return true;
 };
 
-async function main1() {
+function solution1(input: string) {
   const possibleGames: Game[] = [];
   const checkIfGamePossible = isGamePossible(new Handful(12, 13, 14));
-  for await (const line of input) {
+  for (const line of byLine(input)) {
     const game = parse(line);
     if (checkIfGamePossible(game)) possibleGames.push(game);
   }
@@ -74,9 +73,9 @@ function minPossibleSet(game: Game) {
   return result;
 }
 
-async function main2() {
+function solution2(input: string) {
   let result = 0;
-  for await (const line of input) {
+  for (const line of byLine(input)) {
     const game = parse(line);
     const min = minPossibleSet(game);
     result += min.power();
@@ -84,4 +83,10 @@ async function main2() {
   return result;
 }
 
-main2().then(console.log);
+const challenge = new Challenge(
+  join(import.meta.dir, "input.txt"),
+  solution1,
+  solution2
+);
+
+export default challenge;
