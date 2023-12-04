@@ -4,3 +4,7 @@ export function* byLine(input: string) {
     yield line;
   }
 }
+
+export function split(input: string) {
+  return input.trim().split("\n");
+}
