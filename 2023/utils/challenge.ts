@@ -9,7 +9,7 @@ export class Challenge {
 
   tests: {
     input: string;
-    expected1: string | number;
+    expected1: string | number | null;
     expected2?: string | number;
   }[] = [];
 
@@ -24,7 +24,7 @@ export class Challenge {
 
   public addTest(
     input: string,
-    expected1: string | number,
+    expected1: string | number | null,
     expected2?: string | number
   ): void {
     this.tests.push({ input, expected1, expected2 });
@@ -32,13 +32,15 @@ export class Challenge {
 
   public runTests(): void {
     for (const test of this.tests) {
-      const actual1 = this.part1Solution(test.input);
-      if (actual1 !== test.expected1) {
-        console.error(
-          `Test failed. Expected: ${test.expected1}. Actual: ${actual1}`
-        );
-      } else {
-        console.log("Test for part 1 passed ✅");
+      if (test.expected1 !== null) {
+        const actual1 = this.part1Solution(test.input);
+        if (actual1 !== test.expected1) {
+          console.error(
+            `Test failed. Expected: ${test.expected1}. Actual: ${actual1}`
+          );
+        } else {
+          console.log("Test for part 1 passed ✅");
+        }
       }
 
       if (this.part2Solution && test.expected2) {
